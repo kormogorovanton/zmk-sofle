@@ -99,6 +99,16 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <22 23>;
         };
+
+        rack3 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <28 29>;
+        };
+
+        rack4 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <35 36>;
+        };
     };
 
     macros {
@@ -123,11 +133,11 @@
 
         layer0 {
             bindings = <
-&kp ESC         &kp N1        &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB         &kp Q         &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O            &kp P       &kp BSLH
-&kp LEFT_SHIFT  &hml LCMD A  &hml LALT S  &hml LCTRL D       &hml LSHIFT F   &kp G        &kp LEFT_ARROW   &kp H      &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L  &hmr RCMD SEMI    &kp APOS
-&kp LCTRL       &kp Z         &kp X         &kp C      &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE      &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 1   &kp ENTER    &kp ENTER        &kp ENTER  &mo 2   &kp SPACE  &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC         &kp N1        &kp N2        &kp N3        &kp N4         &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8        &kp N9           &kp N0          &kp BACKSPACE
+&kp TAB         &kp Q         &kp W         &kp E         &kp R          &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I         &kp O            &kp P           &kp BSLH
+&kp LEFT_SHIFT  &hml LCMD A   &hml LALT S   &hml LCTRL D  &hml LSHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &hmr RSHIFT J  &hmr RCTRL K  &hmr RALT L      &hmr RCMD SEMI  &kp APOS
+&kp LCTRL       &kp Z         &kp X         &kp C         &kp V          &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA     &kp DOT          &kp FSLH        &kp ENTER
+&kp C_MUTE      &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE     &mo 1          &kp ENTER    &kp ENTER        &kp ENTER  &mo 2          &kp SPACE     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings =
